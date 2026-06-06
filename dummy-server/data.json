@@ -1,0 +1,391 @@
+{
+  "maincategory": [
+    {
+      "id": "c96e",
+      "name": "women's",
+      "pic": "/maincategory/womens.jpg",
+      "active": true
+    },
+    {
+      "id": "5aa5",
+      "name": "Men's",
+      "pic": "/maincategory/mens.jpg",
+      "active": true
+    },
+    {
+      "id": "6ca1",
+      "name": "Kid's",
+      "pic": "/maincategory/kids.jpg",
+      "active": true
+    },
+    {
+      "id": "49c8",
+      "name": "Electronics",
+      "pic": "/maincategory/electronics.jpg",
+      "active": true
+    }
+  ],
+  "subcategory": [
+    {
+      "id": "8ff0",
+      "name": "Mens Paint",
+      "pic": "/subcategory/Mens-pant.jpg",
+      "active": true
+    },
+    {
+      "id": "f099",
+      "name": "Womens Jeans",
+      "pic": "/subcategory/Mens-Pant1.jpg",
+      "active": true
+    },
+    {
+      "id": "58bf",
+      "name": "Kids-Shirt",
+      "pic": "/subcategory/womens-shirt.jpg",
+      "active": true
+    },
+    {
+      "id": "7db2",
+      "name": "Electronics",
+      "pic": "/subcategory/electronics1.jpg",
+      "active": true
+    }
+  ],
+  "brand": [
+    {
+      "id": "c87e",
+      "name": "Levis",
+      "pic": "/brand/Levis (1).jpg",
+      "active": true
+    },
+    {
+      "id": "02bd",
+      "name": "Zara",
+      "pic": "/brand/Zara.png",
+      "active": true
+    },
+    {
+      "id": "a19d",
+      "name": "Gucci",
+      "pic": "/brand/Gucci.jpg",
+      "active": true
+    },
+    {
+      "id": "f946",
+      "name": "Wrogn",
+      "pic": "/brand/Levis.jpg",
+      "active": true
+    }
+  ],
+  "product": [
+    {
+      "id": "8092",
+      "name": "Mens Shirt",
+      "maincategory": "Men's",
+      "subcategory": "Kids-Shirt",
+      "brand": "Zara",
+      "color": "Black",
+      "size": "M",
+      "basePrice": 1000,
+      "discount": 10,
+      "finalPrice": 900,
+      "stock": true,
+      "stockQuantity": 6,
+      "active": true,
+      "pic": [
+        "/product/Mens-pant.jpg",
+        "/product/Mens-Pant1.jpg",
+        "/product/Mens-pant2.jpg",
+        "/product/mens-shirt.jpg"
+      ],
+      "description": "<p>\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">m Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets a</span>\n<br /></p>"
+    },
+    {
+      "id": "2ac6",
+      "name": "Kids Paint",
+      "maincategory": "Kid's",
+      "subcategory": "Kids-Shirt",
+      "brand": "Wrogn",
+      "color": "White",
+      "size": "SM",
+      "basePrice": 2000,
+      "discount": 10,
+      "finalPrice": 1800,
+      "stock": true,
+      "stockQuantity": -5,
+      "active": true,
+      "pic": [
+        "/product/kids.jpg",
+        "/product/womens-shirt.jpg"
+      ],
+      "description": "<p>\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">m Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets a</span>\n<br /></p>"
+    },
+    {
+      "id": "a02b",
+      "name": "Electronics",
+      "maincategory": "Electronics",
+      "subcategory": "Electronics",
+      "brand": "Gucci",
+      "color": "Not mentioned",
+      "size": "NA",
+      "basePrice": 1000,
+      "discount": 20,
+      "finalPrice": 800,
+      "stock": true,
+      "stockQuantity": 15,
+      "active": true,
+      "pic": [
+        "/product/electronics.jpg",
+        "/product/electronics1.jpg"
+      ],
+      "description": "<p>\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">m Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets a</span>\n<br /></p>"
+    },
+    {
+      "id": "a6b1",
+      "name": "Womens Shirt",
+      "maincategory": "women's",
+      "subcategory": "Kids-Shirt",
+      "brand": "Levis",
+      "color": "Black",
+      "size": "XL",
+      "basePrice": 2000,
+      "discount": 30,
+      "finalPrice": 1400,
+      "stock": true,
+      "stockQuantity": 6,
+      "active": true,
+      "pic": [
+        "/product/Mens-Pant1.jpg",
+        "/product/Mens-pant2.jpg",
+        "/product/mens-shirt.jpg"
+      ],
+      "description": "<p>\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">m Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets a</span>\n<br /></p>"
+    },
+    {
+      "id": "a046",
+      "name": "Kids Paints",
+      "maincategory": "Kid's",
+      "subcategory": "Kids-Shirt",
+      "brand": "Gucci",
+      "color": "Gray",
+      "size": "SM",
+      "basePrice": 50000,
+      "discount": 50,
+      "finalPrice": 25000,
+      "stock": true,
+      "stockQuantity": 9,
+      "active": true,
+      "pic": [
+        "/product/womens.jpg"
+      ],
+      "description": "<p>\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsu</span>\n<br /></p>"
+    },
+    {
+      "id": "b131",
+      "name": "Mens shirt",
+      "maincategory": "Men's",
+      "subcategory": "Mens Paint",
+      "brand": "Wrogn",
+      "color": "Black",
+      "size": "M",
+      "basePrice": 3000,
+      "discount": 0,
+      "finalPrice": 3000,
+      "stock": true,
+      "stockQuantity": 9,
+      "active": true,
+      "pic": [
+        "/product/mens.jpg"
+      ],
+      "description": "<p><br /></p>\r\n<p>\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsu</span>\n<br /></p>"
+    },
+    {
+      "id": "82af",
+      "name": "Special_Product for testing",
+      "maincategory": "women's",
+      "subcategory": "Womens Jeans",
+      "brand": "Zara",
+      "color": "White",
+      "size": "32",
+      "basePrice": 30000,
+      "discount": 40,
+      "finalPrice": 18000,
+      "stock": true,
+      "stockQuantity": 6,
+      "active": true,
+      "pic": [
+        "/product/electronics1.jpg",
+        "/product/kids.jpg",
+        "/product/mens.jpg",
+        "/product/Mens-pant.jpg",
+        "/product/Mens-Pant1.jpg"
+      ],
+      "description": "<p>\n</p>\r\n<div style=\"margin: 0px 14.3906px 0px 28.7969px; width: 436.797px; text-align: left; float: left; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\"><p style=\"margin: 0px 0px 15px; text-align: justify\">since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ips.</p></div>\r\n\n\r\n<br />"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "7217",
+      "name": "mens1223",
+      "message": "industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many de",
+      "pic": "/Testimonial/test4.png",
+      "active": true
+    },
+    {
+      "id": "63fb",
+      "name": "womens",
+      "message": "as been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many de",
+      "pic": "/Testimonial/test3.png",
+      "active": true
+    },
+    {
+      "id": "34fd",
+      "name": "long",
+      "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.",
+      "pic": "/Testimonial/test2.png",
+      "active": true
+    }
+  ],
+  "user": [
+    {
+      "name": "Ashish Kumar",
+      "phone": "9328239383",
+      "address": "Jamui Bihar",
+      "pin": "981192",
+      "city": "Jamui",
+      "state": "Bihar",
+      "id": "3441",
+      "username": "ashish",
+      "email": "ashish@gmail.com",
+      "password": "Ashish@123",
+      "role": "Buyer",
+      "pic": "/product/mens.jpg"
+    },
+    {
+      "name": "Admin",
+      "phone": "3238923893",
+      "address": "Sector 45, Noida UP.",
+      "pin": "90010",
+      "city": "Noida",
+      "state": "UP",
+      "id": "3442",
+      "username": "admin123",
+      "email": "ashish@gmail.com",
+      "password": "admin@123",
+      "role": "admin",
+      "pic": "/product/womens.jpg"
+    }
+  ],
+  "newsletter": [
+    {
+      "id": "027e",
+      "email": "ashish@gmail.com",
+      "active": false
+    },
+    {
+      "id": "920b",
+      "email": "",
+      "active": true
+    }
+  ],
+  "cart": [],
+  "wishlist": [
+    {
+      "id": "41a2",
+      "user": "3441",
+      "product": "8092",
+      "name": "Mens Shirt",
+      "brand": "Zara",
+      "color": "Black",
+      "size": "M",
+      "price": 900,
+      "stockQuantity": 8,
+      "pic": "/product/Mens-pant.jpg"
+    }
+  ],
+  "checkout": [
+    {
+      "id": "3686",
+      "user": "3441",
+      "orderStatus": "Order is Ready to Ship",
+      "paymentMode": "COD",
+      "paymentStatus": "Pending",
+      "subtotal": 18000,
+      "shipping": 0,
+      "total": 18000,
+      "date": "2026-06-06T12:56:15.436Z",
+      "products": [
+        {
+          "id": "5f36",
+          "user": "3441",
+          "product": "82af",
+          "name": "Special_Product for testing",
+          "brand": "Zara",
+          "color": "White",
+          "size": "32",
+          "price": 18000,
+          "stockQuantity": 7,
+          "pic": "/product/electronics1.jpg",
+          "qty": 1,
+          "total": 18000
+        }
+      ]
+    },
+    {
+      "id": "1361",
+      "user": "3441",
+      "orderStatus": "Order is Packed",
+      "paymentMode": "COD",
+      "paymentStatus": "Done",
+      "subtotal": 9800,
+      "shipping": 0,
+      "total": 9800,
+      "date": "2026-06-06T12:57:02.109Z",
+      "products": [
+        {
+          "id": "b6ac",
+          "user": "3441",
+          "product": "8092",
+          "name": "Mens Shirt",
+          "brand": "Zara",
+          "color": "Black",
+          "size": "M",
+          "price": 900,
+          "stockQuantity": 8,
+          "pic": "/product/Mens-pant.jpg",
+          "qty": 2,
+          "total": 1800
+        },
+        {
+          "id": "88e0",
+          "user": "3441",
+          "product": "a02b",
+          "name": "Electronics",
+          "brand": "Gucci",
+          "color": "Not mentioned",
+          "size": "NA",
+          "price": 800,
+          "stockQuantity": 18,
+          "pic": "/product/electronics.jpg",
+          "qty": 3,
+          "total": 2400
+        },
+        {
+          "id": "e572",
+          "user": "3441",
+          "product": "a6b1",
+          "name": "Womens Shirt",
+          "brand": "Levis",
+          "color": "Black",
+          "size": "XL",
+          "price": 1400,
+          "stockQuantity": 10,
+          "pic": "/product/Mens-Pant1.jpg",
+          "qty": 4,
+          "total": 5600
+        }
+      ]
+    }
+  ],
+  "contactus": []
+}
