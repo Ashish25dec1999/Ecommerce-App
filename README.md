@@ -58,7 +58,7 @@ Environment Configuration
 Create a .env file in the root directory.
 
 Add:
-REACT_APP_SERVER=http://localhost:8000
+REACT_APP_SERVER = "http://localhost:8000"
 Important:
 Do not add spaces around the "=" sign.
 Correct:
