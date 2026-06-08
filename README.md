@@ -1,71 +1,149 @@
-# Getting Started with Create React App
+Ecommerce App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack Ecommerce Management Application built using React.js, Redux Toolkit, Redux Saga, and JSON Server.
 
-## Available Scripts
+The project includes:
 
-In the project directory, you can run:
+User-facing Ecommerce Website
+Admin Panel
+Product Management
+Category Management
+Subcategory Management
+Brand Management
+Testimonial Management
+Rich Text Editor Integration
+JSON Server API Backend
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tech Stack
+Frontend
+React.js
+Redux Toolkit
+Redux Saga
+React Router DOM
+jQuery
+DataTables
+Owl Carousel
+Swiper
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Backend
+JSON Server
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Other Libraries
+Rich Text Editor
+Password Validator
 
-### `npm run build`
+Prerequisites
+Before running the project, install:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Node.js
+Download and install:
+https://nodejs.org
+Verify installation:
+node -v
+npm -v
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone Repository
+git clone https://github.com/Ashish25dec1999/Ecommerce-App.git
+Move into project directory:
+cd Ecommerce-App
 
-### `npm run eject`
+Install Dependencies
+npm install
+This will install all frontend dependencies.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Environment Configuration
+Create a .env file in the root directory.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Add:
+REACT_APP_SERVER=http://localhost:8000
+Important:
+Do not add spaces around the "=" sign.
+Correct:
+REACT_APP_SERVER=http://localhost:8000
+Wrong:
+REACT_APP_SERVER = http://localhost:8000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+JSON Server Setup
+This project uses JSON Server as a backend API.
+Move to dummy-server folder:
+cd dummy-server
+Install JSON Server globally if not installed:
+npm install -g json-server
+Verify installation:
+json-server --version
 
-## Learn More
+Start Backend Server
+Inside dummy-server folder run:
+json-server --watch data.json --port 8000
+Backend will start at:
+http://localhost:8000
+Example APIs:
+http://localhost:8000/maincategory
+http://localhost:8000/subcategory
+http://localhost:8000/brand
+http://localhost:8000/product
+http://localhost:8000/testimonial and so on....
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start React Application
+Open another terminal.
+Move to project root:
+cd Ecommerce-App
+Start application:
+npm start
+Frontend will run at:
+http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Rich Text Editor
+The project uses Rich Text Editor for product descriptions.
+Editor files are located at:
+public/richtexteditor
+These files are already included in the repository.
+No additional installation is required.
 
-### Code Splitting
+Images and Media
+All application images are stored inside:
+dummy-server/public
+Folders:
+brand
+maincategory
+product
+subcategory
+testimonial
+The JSON data references these images.
+Make sure these folders remain unchanged.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Available Scripts
+Start Development Server
+npm start
+Run Tests
+npm test
+Create Production Build
+npm run build
+Eject CRA Configuration
+npm run eject
 
-### Analyzing the Bundle Size
+Common Issues
+API Not Working
+Check:
+json-server --watch data.json --port 8000 is running.
+Images Not Loading
+Verify: dummy-server/public contains all image folders.
+Rich Text Editor Not Loading
+Verify: public/richtexteditor exists and contains:
+lang/
+plugins/
+runtime/
+rte.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Environment Variable Not Working
+Restart React after updating .env.
+npm start
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# note-app
+Author
+Ashish Kumar
+GitHub:
+https://github.com/Ashish25dec1999
